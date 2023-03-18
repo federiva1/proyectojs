@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Document</title>
+</head>
+
+<body class="fondo">
+
+
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <span class="fs-4 ColorTitulo">Rivadeneira Seguros S.A </span>
+            </a>
+        </header>
+    </div>
+
+    <div id="datos">
+        <div class="container form-container">
+            <div class="text-center my-4">
+                <h1 class="ColorLetra">Completa los siguientes datos</h1>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="tel" class="form-control" placeholder="Año del vehiculo" id="Ano_del_vehiculo"
+                            list="lista_anos">
+                        <datalist id="lista_anos">
+                            <option value="2022">
+                            <option value="2021">
+                            <option value="2020">
+                        </datalist>
+                    </div>
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="tel" class="form-control" placeholder="Marca" id="Marca_del_vehiculo" list="lista_marcas">
+                        <datalist id="lista_marcas">
+                            <option value="Audi">
+                            <option value="BMW">
+                            <option value="Chevrolet">
+                            <option value="Ford">
+                            <option value="Honda">
+                        </datalist>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="tel" class="form-control" placeholder="Modelo" id="Modelo_del_vehiculo" list="lista_modelos">
+                        <datalist id="lista_modelos">
+                        </datalist>
+                    </div>
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="tel" class="form-control" placeholder="Valor Vehiculo" id="Valor_vehiculo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="text" class="form-control" placeholder="Uso" id="Uso_vehiculo" list="lista_uso">
+                        <datalist id="lista_uso">
+                            <option value="Particular">
+                            <option value="Comercial">
+                        </datalist>
+                    </div>
+                    <div class="col-md-6 form-group CamposFormulario">
+                        <input type="text" class="form-control" placeholder="Código postal" id="Codigo_postal_vehiculo">
+                    </div>
+                </div>
+        </div>
+        </form>
+
+        <div class="text-center my-4">
+            <button type="button" class="btn btn-primary btn-lg px-4 " id="BotonDeCotizacion"> COTIZAR </button>
+        </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 ColorLetra3">FR Desarrllo Web</span>
+                </div>
+
+                <ul class="nav col-md-4 itemsFooter">
+
+                    <li><img class="logosFooter" src="/imagenes/Twitter.jpg" alt="Twitter"></li>
+                    <li><img class="logosFooter" src="/imagenes/instagram.jpg" alt="instagram"></li>
+                    <li><img class="logosFooter" src="/imagenes/facebook.jpg" alt="facebook"></li>
+
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="CotizacionAuto.js"></script>
+
+
+</body>
+
+</html>

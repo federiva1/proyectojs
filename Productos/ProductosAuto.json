@@ -1,0 +1,23 @@
+[
+    {
+        "Paquete": "Plan Rc",
+        "Antiguedad": "1960",
+        "Coeficiente": "0.02",
+        "Coberturas": "Responsabilidad civil por daños a terceros, Responsabilidad civil por muerte de terceros"
+    },
+
+
+    {
+        "Paquete": "Plan Extend",
+        "Antiguedad": "1990",
+        "Coeficiente": "0.08",
+        "Coberturas": "Responsabilidad civil por daños a terceros, Responsabilidad civil por muerte de terceros, Robo e incendio total del vehiculo"
+    },
+
+    {
+        "Paquete": "Plan Advance",
+        "Antiguedad": "2010",
+        "Coeficiente": "0.15",
+        "Coberturas": "Responsabilidad civil por daños a terceros, Responsabilidad civil por muerte de terceros, Robo e incendio total del vehiculo, Robo e incendio parcial del vehiculo"
+    }
+]
